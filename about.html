@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Igor Gerasimenko | About</title>
+    <!-- META -->
+    <meta name="author" content="Igor Gerasimenko" />
+    <meta name="description" content="This is my portfolio as a designer." />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/about.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__inner">
+            <a href="index.html" class="header__logo">Logo</a>
+            <nav class="header__menu">
+              <ul class="header__list">
+                <li class="header__item">
+                  <a href="index.html" class="header__link">Головна</a>
+                </li>
+                <li class="header__item">
+                  <a href="#contacts" class="header__link">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+            <div id="burger"></div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__container">
+            <div class="hero__inner">
+              <div class="hero__info">
+                <div class="hero__image">
+                  <img
+                    src="img/hero/avatar.png"
+                    alt="Avatar"
+                    width="195"
+                    height="195"
+                  />
+                </div>
+                <div class="hero__name">Igor Gerasimenko</div>
+                <div class="hero__position">Designer & Unicorn Trainer</div>
+              </div>
+              <div class="hero__bio">
+                <span class="hero__bio-title">Bio:</span>
+                <p class="hero__bio-text">
+                  Father of 3 humans, 5 unicorns & 2 dogs,I design since I can
+                  remember it. I often get asked where I get my inspiration
+                  from: in everyday’s lil’ details. And sometimes in leftover
+                  food I find in my beard.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="contacts">
+        <div class="footer__container">
+          <div class="footer__inner">
+            <div class="footer__content">
+              <h2 class="footer__title title">Давайте працювати разом</h2>
+              <p class="footer__text">
+                Це файл шаблону Figma, перетворений на код за допомогою Anima.
+                Дізнайтеся більше на AnimaApp.com. Це файл шаблону Figma,
+                перетворений на код за допомогою Anima. Дізнайтесь більше на
+                AnimaApp.com
+              </p>
+              <ul class="footer__social-list social-list">
+                <li class="social-list__item">
+                  <a href="#" class="social-list__link">
+                    <img
+                      src="img/footer/discord.svg"
+                      alt="Discord"
+                      width="30"
+                      height="30"
+                      loading="lazy"
+                    />
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="#" class="social-list__link">
+                    <img
+                      src="img/footer/facebook.svg"
+                      alt="Facebook"
+                      width="30"
+                      height="30"
+                      loading="lazy"
+                    />
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="#" class="social-list__link">
+                    <img
+                      src="img/footer/dribbble.svg"
+                      alt="Dribbble"
+                      width="30"
+                      height="30"
+                      loading="lazy"
+                    />
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a
+                    href="https://www.instagram.com/_patlatuy_/"
+                    class="social-list__link"
+                    target="_blank"
+                  >
+                    <img
+                      src="img/footer/instagram.svg"
+                      alt="Instagram"
+                      width="30"
+                      height="30"
+                      loading="lazy"
+                    />
+                  </a>
+                </li>
+                <li class="social-list__item">
+                  <a href="#" class="social-list__link">
+                    <img
+                      src="img/footer/behance.svg"
+                      alt="Behance"
+                      width="30"
+                      height="30"
+                      loading="lazy"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <form id="contact-form" action="#" class="footer__form">
+              <input
+                type="text"
+                class="footer__input"
+                name="user_name"
+                placeholder="Ім'я"
+              />
+              <input
+                type="email"
+                class="footer__input"
+                name="user_email"
+                placeholder="Електоранна адреса"
+                required
+              />
+              <textarea
+                class="footer__textarea"
+                name="message"
+                placeholder="Введіть своє повідомлення тут"
+              ></textarea>
+              <button type="submit" class="footer__submit">Відправити</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- EmailJS -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <!-- JS -->
+    <script src="js/email.js"></script>
+    <script src="js/burger.js"></script>
+  </body>
+</html>
